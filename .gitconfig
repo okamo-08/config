@@ -1,0 +1,19 @@
+[user]
+    name = okamo
+    email = koichirookamoto@icloud.com
+
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+    lg = log --oneline --graph --all
+    last = log -1 HEAD
+    fix = commit --fixup
+    r = rebase -i
+
+[pull]
+    rebase = true
+
+[init]
+    defaultBranch = main
